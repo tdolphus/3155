@@ -12,7 +12,6 @@ module FunWithStrings
     words.split.each { |x| count[x] = count[x] + 1 }
     count
   end
-  
   def anagram_groups
    word = self.downcase.split.group_by{ |x| x.chars.sort }.values
   end
