@@ -20,8 +20,10 @@ class Dessert
   def healthy?
     calories < 200
   end
+  
   def delicious?
-    true
+    @flavor != "licorice"
+    
   end
 end
 
