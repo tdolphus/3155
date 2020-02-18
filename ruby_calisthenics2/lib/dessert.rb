@@ -1,7 +1,21 @@
 class Dessert
-  # add code for setters and getters
+ def name #getter method
+    @name
+  end
+   def name=(name) #setter method
+    @name = name
+  end
+   def calories #getter method
+    @calories
+  end
+    def calories=(calories) #setter method
+    @calories = calories
+  end
+   
+  
   def initialize(name, calories)
-    # your code here
+    @name = name
+    @calories = calories
   end
   def healthy?
     # your code here
